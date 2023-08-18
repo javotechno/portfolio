@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+#home {
+  min-height: 100vh;
+  animation: tracking-in-expand 0.8s ease-out both;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.imghome {
+  width: 100vh;
+}
+h1{
+  margin: 0;
+}
+.javier {
+  color: #504099;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  
+}
+
+.icons {
+  font-size: 40px;
+  font-weight: 700;
+}
+.icons a {
+  color:  #715dca;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 25px;
+  margin-left: 25px;
+  align-self: center;
+  z-index: 4;
+  transition: transform 0.3s ease-in-out 0s;
+  display: inline-block;
+}
+
+.icons a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* repetir paleta de colores */
+.javier h1, .javier h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  background: radial-gradient(
+    ellipse farthest-corner at bottom right,
+    #504099 0%,
+    #b19fff 60%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1300px) {
+  .javier h1 {
+    font-size: 70px;
+  }
+  .javier h2 {
+    font-size: 50px;
+  }
+  .icons{
+    font-size: 25px;
+  }
+}
+
+
+/* MEDIAS querys */
+
+@media only screen and (max-width: 900px) {
+  #home {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+
+  .javier h1{
+    font-size: 40px;
+    animation: fade-in 1.3s ease-out both;
+  }
+  .javier h2{
+    font-size: 30px;
+    animation: fade-in 1.3s ease-out both;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .javier h1{
+    font-size: 30px;
+    animation: fade-in 1.3s ease-out both;
+  }
+  .javier h2{
+    font-size: 20px;
+    animation: fade-in 1.3s ease-out both;
+  }
+  .icons {
+    font-size: 15px;
+  }
+  .icons svg {
+    width: 20px;
+  }
+
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

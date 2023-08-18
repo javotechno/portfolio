@@ -1,0 +1,55 @@
+.btnup{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.btnup button {
+  position: relative;
+  z-index: 1100;
+  display: flex;  
+  background: radial-gradient(
+    ellipse farthest-corner at bottom right,
+    #504099 0%,
+    #b19fff 60%
+  ); 
+  -webkit-text-fill-color: transparent;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px 1px #000;
+
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  color: #000;
+  z-index: 120;
+  -webkit-animation: fade-in 1.3s ease-out both;
+  animation: fade-in 1.3s ease-out both;
+}
+.btnup button:hover {
+  cursor: pointer;
+  transform: translate(1px, 1%);
+  /* background: radial-gradient(
+    ellipse farthest-corner at top left,
+    #ee416fbb 0%,
+    #ddafaf 60%
+  ); */
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
