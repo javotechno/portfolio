@@ -67,10 +67,10 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 0px;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin: 3rem;
+
 }
-.henry {
+.tudai {
   grid-area: 2 / 2 / 6 / 3;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
@@ -98,9 +98,8 @@
   cursor: pointer;
   transform: translate(1px, 1%);
 }
-.autodidacta {
+.educacionIT {
   grid-area: 2 / 1 / 6 / 2;
-
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
@@ -109,7 +108,7 @@
   font-size: 14px;
   height: min-content;
 }
-.tzuzul {
+.coderhouse {
   grid-area: 2 / 3 / 6 / 4;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
@@ -121,8 +120,6 @@
 }
 .titt {
   grid-area: 1 / 1 / 2 / 4;
-  margin-top: 60px;
-  margin-bottom: 10px;
   font-weight: 800;
   font-size: 30px;
   background: radial-gradient(
@@ -145,9 +142,7 @@
   background-color: #b19fff;
   font-size: 20px;
   font-weight: 600;
-  margin:5rem;
   position: relative;
-  top: -70px;
   transition: background 1s ease-in-out 0s;
 }
 .btncv button:hover {
@@ -201,9 +196,9 @@
     grid-row-gap: 15px; 
     }
   .titt { grid-area: 1 / 1 / 2 / 2; }
-  .henry { grid-area: 2 / 1 / 3 / 2; }
-  .autodidacta { grid-area: 3 / 1 / 4 / 2; }
-  .tzuzul { grid-area: 4 / 1 / 5 / 2; }
+  .tudai { grid-area: 2 / 1 / 3 / 2; }
+  .educacionIT { grid-area: 3 / 1 / 4 / 2; }
+  .coderhouse { grid-area: 4 / 1 / 5 / 2; }
 }
 
 

@@ -15,7 +15,7 @@ export default function SideBar() {
                         </div>
                     </a>
                     <a className="ki" href="#home" style={{ textDecoration: 'none' }}>
-                        <div>Inicio</div>
+                        <div>Home</div>
                     </a>
                 </div>
                 <div className="p2">
@@ -27,7 +27,7 @@ export default function SideBar() {
                         </div>
                     </a>
                     <a className="ki" href="#about" style={{ textDecoration: 'none' }}>
-                        <div>Datos</div>
+                        <div>Data</div>
                     </a>
                 </div>
                 <div className="p3">
@@ -51,7 +51,7 @@ export default function SideBar() {
                         </div>
                     </a>
                     <a className="ki" href="#projects" style={{ textDecoration: 'none' }}>
-                        <div>Proyectos</div>
+                        <div>Projects</div>
                     </a>
                 </div>
                 <div className="p5">
@@ -63,7 +63,7 @@ export default function SideBar() {
                         </div>
                     </a>
                     <a className="ki" href="#contact" style={{ textDecoration: 'none' }}>
-                        <div>Contacto</div>
+                        <div>Contact</div>
                     </a>
                 </div>
             </div>

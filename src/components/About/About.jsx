@@ -35,14 +35,14 @@ export default function About() {
     return (
         <div id='about' >
             <Up />
-            <div className="title"><hr /></div> 
-            <div className="asd2">Desarrollador Frontend</div>
+            <div className="division"><hr /></div> 
+            <h2 className="title">Desarrollador Frontend</h2>
             <div className="parentabout">
                 <div className="asd3">
                     <img src={img2} alt="photo"/>
                 </div>
                 <div className="asd4">
-                    <div className="div1"><b>Habilidades:</b> </div>
+                    <div className="div1"><b>Skills:</b> </div>
                     <div className="div2"><img src={html} alt="icon" /></div>
                     <div className="div3"> HTML</div>
                     <div className="div4"><img src={css} alt="icon" /></div>
@@ -50,15 +50,15 @@ export default function About() {
                     <div className="div6"><img src={react} alt="icon" /></div>
                     <div className="div7"> React Js</div>
                     <div className="div8"><img src={redux} alt="icon" /></div>
-                    <div className="div9"> Redux</div>
+                    <div className="div9"> JMeter</div>
                     <div className="div10"><img src={bootstrap} alt="icon" />
                     </div><div className="div11">Bootstrap</div>
                     <div className="div12"><img src={mui} alt="icon" /></div>
                     <div className="div13">Material UI</div>
                     <div className="div14"><img src={next} alt="icon" /></div>
-                    <div className="div15">Next Js</div>
+                    <div className="div15">Cucumber</div>
                     <div className="div16"><img src={tailwind} alt="icon" /></div>
-                    <div className="div17">Tailwind</div>
+                    <div className="div17">Selenium</div>
                     <div className="div18"><img src={js} alt="icon" /></div>
                     <div className="div19">Javascript</div>
                     <div className="div20"><img src={node} alt="icon" /></div>
@@ -66,9 +66,9 @@ export default function About() {
                     <div className="div22"><img src={express} alt="icon" className="ex" /></div>
                     <div className="div23">Express Js</div>
                     <div className="div24"><img src={sequelize} alt="icon" /></div>
-                    <div className="div25">Sequelize</div>
+                    <div className="div25">SQL Server</div>
                     <div className="div26"><img src={psql} alt="icon" /></div>
-                    <div className="div27">PostgreSQL</div>
+                    <div className="div27">Postman</div>
                     <div className="div28"><img src={git} alt="icon" /></div>
                     <div className="div29"> Git</div>
                     <div className="div30"><img src={fb} alt="icon" /></div>
@@ -77,27 +77,27 @@ export default function About() {
                     <div className="div33"> Github</div>
                 </div>
                 <div className="asd5">
-                    <b>Habilidades blandas:</b>
+                    <b>Soft skills:</b>
                     <br />
-                    Proactividad <b> ● </b>
-                    Trabajo en equipo<b> ● </b>
-                    Comunicación  <b> ● </b>
-                    Responsabilidad  <b> ● </b>
-                    Creatividad  <b> ● </b>
-                    Organización  <b> ● </b>
-                    Autodidacta  <b> ● </b>
-                    Liderazgo  <b> ● </b>
-                    Orientación al cliente <b> ● </b>
-                    Metodologías ágiles
+                    Proactivity <b> ● </b>
+                    Teamwork<b> ● </b>
+                    Communication <b> ● </b>
+                    Responsibility <b> ● </b>
+                    Creativity  <b> ● </b>
+                    Organization  <b> ● </b>
+                    Self-taught  <b> ● </b>
+                    Leadership  <b> ● </b>
+                    Customer orientation <b> ● </b>
+                    Agile methodologies
                 </div>
                 <div className="lang">
-                    <b>Idiomas:</b>
+                    <b>Languages:</b>
                     <br />
-                    Español (Nativo) <b> ● </b>
-                    Inglés (Intermedio)
+                    Spanish (Native) <b> ● </b>
+                    English (Intermediate)
                 </div>
                 <div className="asd6">
-                    <div className="d1"><b>Contacto:</b></div>
+                    <div className="d1"><b>Contact:</b></div>
                     <div className="d3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" className="bi bi-envelope" viewBox="0 0 16 16">
                             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>

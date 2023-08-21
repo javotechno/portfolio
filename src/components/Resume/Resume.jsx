@@ -41,24 +41,24 @@ export default function Resume() {
             </div>
             <div className="studies">
                 <div className="titt">Studies</div><br />
-                <div className="henry">
+                <div className="tudai">
                     <b>Facultad TUDAI UNICEN</b>  <br />
-                    <br /> Computer Applications Development, 1st year (2022-2023). <br />
+                    <br />Computer Applications Development, 1st year (2022-2023). <br />
                     <br/>Contents: Sql, web development, testing, backend<br />
                 </div>
 
-                <div className="autodidacta">
+                <div className="educacionIT">
                     <b>Educacion IT</b> 
                     <br />Qa Manual <br /> 
-                    <br />Qa Manual <br />
-                    <br />Qa Manual <br />
+                    <br />Selenium<br />
+                    <br />SQL Server<br />
                 </div>
-                <div className="tzuzul">
+
+                <div className="coderhouse">
                 <b>CoderHouse</b>  <br />
-                    <br /> Full Stack Developer <br />
-                    <br /> Full Stack Developer <br />
-                    <br /> Full Stack Developer <br />
+                <br /> Full Stack Developer <br />
                 </div>
+
             </div>
             <a className="btncv" href={cv} download>
                 <button>Ver currículum</button>
