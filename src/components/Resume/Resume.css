@@ -6,7 +6,7 @@
   margin-right: 100px;
 }
 .proyectos {
-  margin-left: 10%;
+  margin-left: 10%; 
   margin-right: 10%;
   margin-top: -40px;
 }
@@ -48,10 +48,9 @@
 .tit {
   grid-area: 1 / 1 / 2 / 3;
   align-self: flex-end;
-  margin-bottom: 10px;
+  margin:2rem;
   font-weight: 800;
   font-size: 30px;
-  margin-top: -40px;
   background: radial-gradient(
     ellipse farthest-corner at bottom right,
     #504099 0%,
@@ -61,7 +60,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.estudios {
+
+.studies {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -139,14 +139,13 @@
   border: none;
   outline: none;
   height: 35px;
-  width: 400px;
+  width: 200px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px 1px #000;
   background-color: #b19fff;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 50px;
-  margin-top: 20px;
+  margin:5rem;
   position: relative;
   top: -70px;
   transition: background 1s ease-in-out 0s;
@@ -194,21 +193,17 @@
     width: 90%;
     margin-top: 15px;
   }
-  .estudios {
+  .studies {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    grid-row-gap: 15px; 
     }
   .titt { grid-area: 1 / 1 / 2 / 2; }
   .henry { grid-area: 2 / 1 / 3 / 2; }
   .autodidacta { grid-area: 3 / 1 / 4 / 2; }
   .tzuzul { grid-area: 4 / 1 / 5 / 2; }
-  .btncv button {
-    top: 0px;
-    width: 90%;
-  }
-  }
+}
+
+

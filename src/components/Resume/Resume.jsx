@@ -18,46 +18,40 @@ export default function Resume() {
     return (
         <div id='resume'>
             <div className="title"><hr /></div>
-            <div className="proyectos">
-                <div className="tit">Experiencia Academica</div>
+            <div className="division">
+                <div className="tit">Academic Experience</div>
                 <br />
                 <div className="pflex">
                     <div className="proy">
-                        <b>Proyecto <br /> "lorem"</b>
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolore eum modi ipsa, quis dicta velit porro aliquam nemo culpa ipsam aut esse consequuntur. Veniam exercitationem obcaecati temporibus dolore vitae!.
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, officia nulla minus voluptatum maiores quia voluptas ex tempore sequi dolorem voluptate modi illum cum fuga omnis quas, eos nostrum. Inventore?.
-                        <br /> <br /> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex deleniti necessitatibus aspernatur commodi harum, cum adipisci ut quod repellat non sequi dolorem iste ducimus in deserunt quia quam, quidem quibusdam?
+                        <b>Project<br /> Argentina Regional</b>
+                        <br /> <br /> Project created for the UNICEN university, geography department.
+                        <br /> <br /> On the web we find some important and necessary information about all the regions and subregions of Argentina.
+                        <br /> <br /> We worked with a team of 3 people, 2 frontend and 1 backend.
                         <br /> <br />
                         <a href="#projects">+</a>
                     </div>
                     <div className="proy">
-                        <b>Proyecto <br /> "E-commerce"</b>
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab perferendis reprehenderit ullam sint, expedita numquam et quis reiciendis voluptatibus eius doloribus magnam sed impedit, itaque asperiores velit saepe laboriosam autem.
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates quibusdam atque a quos dolores recusandae expedita perspiciatis? Explicabo eos praesentium quaerat commodi ut perspiciatis unde laborum quis maxime architecto.
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus praesentium vero dicta id quod. Aliquid aperiam molestias odit saepe aliquam, corrupti explicabo corporis velit, ad illum a laboriosam ipsam.
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquam iure quo dolore ullam praesentium? Adipisci doloremque repellendus pariatur, tenetur sapiente quasi ipsum dolore id dolores et officiis optio eius?
-                        <br /> <br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio provident exercitationem, doloribus quam ratione porro magni laudantium, fugit, maiores aperiam quas voluptate voluptatem nisi quae ex odio. Rem, exercitationem ipsa.
-                        <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis laudantium dolorum soluta illum nobis distinctio, assumenda saepe, nemo, aliquam debitis repellendus molestias? Sed omnis hic illo dolor, esse consectetur commodi.
-                        <br /> <br />
+                        <b>Project <br /> HonuTalent</b>
+                        <br /> <br /> Project created for the company HonuTalent.
+                        <br /> <br /> The same company is in charge of contacting clients from different countries, through the web and by mail.
+                        <br /> <br /> I did this project with 2 other people.
                         <a href="#projects">+</a>
                     </div>
                 </div>
             </div>
-            <div className="estudios">
-                <div className="titt">Estudios</div><br />
+            <div className="studies">
+                <div className="titt">Studies</div><br />
                 <div className="henry">
                     <b>Facultad TUDAI UNICEN</b>  <br />
-                    <br /> Full Stack Developer <br />
-                    <br /> Full Stack Developer <br />
-                    <br /> Full Stack Developer <br />
-                    
-
+                    <br /> Computer Applications Development, 1st year (2022-2023). <br />
+                    <br/>Contents: Sql, web development, testing, backend<br />
                 </div>
+
                 <div className="autodidacta">
                     <b>Educacion IT</b> 
-                     <br />Qa Manual <br /> 
-                     <br />Qa Manual <br />
-                     <br />Qa Manual <br />
+                    <br />Qa Manual <br /> 
+                    <br />Qa Manual <br />
+                    <br />Qa Manual <br />
                 </div>
                 <div className="tzuzul">
                 <b>CoderHouse</b>  <br />

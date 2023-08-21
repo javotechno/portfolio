@@ -53,7 +53,7 @@ function Contact() {
   return (
     <div id="contacto" >
       <div className="title"> <hr /></div>
-      <div className="tit">CONTACTAME</div>
+      <div className="tit">Contact me</div>
       <br />
       <div id='contact'>
         <div className="grid">
