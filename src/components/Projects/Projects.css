@@ -1,26 +1,32 @@
 #projects {
   min-height: 100vh;
-  color: #504099;
   font-family: "Montserrat", sans-serif;
   margin-left: 100px;
   margin-right: 100px;
 }
-.title {
-  margin-bottom: 50px;
-  margin-top: 20px;
+
+.division {
+  margin-bottom: 3.125rem;
+  margin-top: 1.25rem;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
 }
-.caratula {
+
+.tit {
+  margin: 1rem;
+    background-color: #715dca !important;
+}
+
+.cover {
   object-fit: cover;
 }
 
-.centrar{
+.centrar {
   object-position: -400px;
 }
 
-.centrar0{
+.centrar0 {
   object-position: -310px;
 }
 
@@ -29,12 +35,12 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin-left: calc(50% - 300px);
-  margin-right: calc(50% - 300px);
+  margin-left: calc(50% - 200px);
+  margin-right: calc(50% - 200px);
 }
 .card__collection .cards {
-  width: 600px;
-  height: 400px;
+  width: 25rem;
+  height: 18.75rem;
   display: block;
   background-size: cover;
   float: left;
@@ -42,7 +48,6 @@
   box-shadow: 5px 5px 10px 1px #000;
   position: relative;
   background-position: center;
-  /* margin: 10px; */
   overflow: hidden;
 }
 .card__collection .cards--two {
@@ -52,8 +57,9 @@
 }
 .card__collection .cards--two p {
   position: absolute;
-  top: 5px;
-  left: -100%;
+  margin: 1rem;
+  margin-left:2rem;
+  top:1rem;
   text-transform: capitalize;
   color: #504099;
   font-size: 20px;
@@ -61,28 +67,29 @@
   transition: all 1s ease;
   font-size: 30px;
 }
-.card__collection .cards--two:hover p {
-  left: 8%;
-}
+
 .card__collection .cards--two:hover img {
   transform: translateY(-15px);
-  filter: brightness(0.15) sepia(1) hue-rotate(-33deg);
+  filter: brightness(0.15) hue-rotate(-33deg);
 }
+
 .card__collection .cards--two:hover .cards--two__rect {
-  top: 60%;
+  top: 90%;
 }
+
 .card__collection .cards--two:hover .cards--two__rect:before {
   transform: translateY(15px);
 }
+
 .card__collection .cards--two:hover li {
   transform: translateY(0);
 }
 .card__collection .cards--two img {
   transition: all 0.2s ease;
-  filter: sepia(1) hue-rotate(-33deg);
+  filter: hue-rotate(-33deg);
 }
 .card__collection .cards--two__rect {
-  width: 1100px;
+  width:68.75rem;
   height: 200px;
   background: #fff;
   display: block;
@@ -128,11 +135,13 @@
   transition-delay: 0.1s;
   margin-left: 20px;
 }
+
 .cards ul {
   display: flex;
   align-items: center;
   margin-left: -30px;
 }
+
 .card__collection {
   display: flex;
   justify-content: center;
@@ -164,6 +173,10 @@
     opacity: 1;
   }
 }
+
+
+/* medias qwerys */
+
 
 @media only screen and (max-width: 1250px) {
   .card__collection{
