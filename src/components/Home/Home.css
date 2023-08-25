@@ -105,15 +105,15 @@ h1 {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 430px) {
   
   .javier h1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     animation: fade-in 1.3s ease-out both;
   }
   
   .javier h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     animation: fade-in 1.3s ease-out both;
   }
 
@@ -121,7 +121,7 @@ h1 {
     font-size: 1rem;
   }
   .icons svg {
-    width: 1.25rem;
+    width: 1rem;
   }
 
 }

@@ -391,7 +391,9 @@ hr {
   grid-area: 6 / 2 / 7 / 7;
 }
 
+/* medias qwerys */
 @media only screen and (max-width: 1600px) {
+
   .parentabout{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr auto auto auto;
@@ -498,9 +500,8 @@ hr {
   }
 }
 @media only screen and (max-width: 400px) {
-  /* .asd4 {
-    font-size: 10px;
-  } */
+
+
   .div3 {
     margin-left: -8px;
   }

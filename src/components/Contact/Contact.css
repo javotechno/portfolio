@@ -263,8 +263,9 @@ textarea {
 }
 
 @media only screen and (max-width: 430px) {
+
   #contact{
-    width: 80%;
+    width: 90%;
   }
   .lateral {
     display: grid;

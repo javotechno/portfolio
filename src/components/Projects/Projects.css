@@ -145,8 +145,8 @@
 .card__collection {
   display: flex;
   justify-content: center;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 @-webkit-keyframes slide-in-bottom {
@@ -226,16 +226,16 @@
 }
 @media only screen and (max-width: 470px) {
  .card__collection .cards{
-    width: 270px;
+    width: 280px;
     height: 180px;
     margin-top: 30px;
   }
   .card__collection .cards--two p{
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 6%;
   }
   .card__collection .cards--two__rect {
-      width: 660px; 
+      width: 650px; 
   }
   .cards__list svg{
     width: 35px;
