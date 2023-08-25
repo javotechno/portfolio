@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
+  z-index: 1000;
 }
 .btnup button {
   position: relative;
@@ -24,18 +25,13 @@
   border: none;
   outline: none;
   color: #000;
-  z-index: 120;
+  z-index: 1000;
   -webkit-animation: fade-in 1.3s ease-out both;
   animation: fade-in 1.3s ease-out both;
 }
 .btnup button:hover {
   cursor: pointer;
   transform: translate(1px, 1%);
-  /* background: radial-gradient(
-    ellipse farthest-corner at top left,
-    #ee416fbb 0%,
-    #ddafaf 60%
-  ); */
 }
 @-webkit-keyframes fade-in {
   0% {

@@ -64,15 +64,14 @@ function Contact() {
                     </svg>
                 </div>
                 <div className="df8">
-                  <CopyToClipboard text='kimey.-@hotmail.com'>
+                  <CopyToClipboard text='nacho.rivarola@hotmail.com'>
                   <p onClick={() => toast.success("Copiado al portapapeles", {
                                       position: "top-center",
                                       style: {
                                         color: '#fff',
                                         background: '#000'
                                       }
-                                    }) }>
-                   nacho.rivarola@hotmail.com
+                                    }) }> nacho.rivarola@hotmail.com
                   </p> 
                   </CopyToClipboard>
                   <Toaster />
@@ -81,19 +80,19 @@ function Contact() {
             <div id='big' className="big">
               <form onSubmit={handleOnSubmit} autoComplete="off">
                 <div className="name">
-                  <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" required />
+                  <input id="Name" type="text" name="Name" placeholder="Name" required />
                 </div>
                 <div className="email">
-                  <input id="Email" type="email" name="Email" placeholder="Email" required />
+                  <input id="Email" type="Email" name="Email" placeholder="Email" required />
                 </div>
                 <div className="asunto">
-                  <input id="Asunto" type="text" name="Asunto" placeholder="Asunto" required />
+                  <input id="subject" type="text" name="Subject" placeholder="Subject" required />
                 </div>
                 <div className="msje">
-                  <textarea id="Mensaje" name="Mensaje" placeholder="Mensaje" cols="30" rows="8" required></textarea>
+                  <textarea id="message " name="message" placeholder="Message" cols="30" rows="8" required></textarea>
                 </div>
                 <button className="btn" type="submit" disabled={serverState.submitting}>
-                  Enviar
+                  Subtmit
                 </button>
                 {serverState.status && (
                   <p id='enviadoexito' className={!serverState.status.ok ? "errorMsg" : ""}>

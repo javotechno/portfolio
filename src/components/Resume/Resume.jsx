@@ -48,20 +48,22 @@ export default function Resume() {
                 </div>
 
                 <div className="educacionIT">
-                    <b>Educacion IT</b> 
+                    <b>Educacion IT</b> <br />
                     <br />Qa Manual <br /> 
                     <br />Selenium<br />
                     <br />SQL Server<br />
+                    <br />Base de datos<br />
                 </div>
 
                 <div className="coderhouse">
                 <b>CoderHouse</b>  <br />
                 <br /> Full Stack Developer <br />
+                <br /> Qa Manual <br />
                 </div>
 
             </div>
             <a className="btncv" href={cv} download>
-                <button>Ver currículum</button>
+                <button>View resume</button>
             </a>
         </div>
     )}
