@@ -64,7 +64,7 @@ export default function About() {
                     <div className="div20"><img src={node} alt="icon" /></div>
                     <div className="div21">Node Js</div>
                     <div className="div22"><img src={express} alt="icon" className="ex" /></div>
-                    <div className="div23">Express Js</div>
+                    <div className="div23">Wordpress</div>
                     <div className="div24"><img src={sequelize} alt="icon" /></div>
                     <div className="div25">SQL Server</div>
                     <div className="div26"><img src={psql} alt="icon" /></div>
